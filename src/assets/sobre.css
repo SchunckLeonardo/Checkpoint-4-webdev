@@ -1,0 +1,30 @@
+.mainContainerSobre {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.boxSobre {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #181818, #1e1d1f, #262325, #2e282a, #362e2e);
+    padding: 55px;
+    flex-direction: column;
+    height: 500px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-align: center;
+    gap: 20px;
+    color: #fff;
+}
+
+.boxSobre img {
+    width: 100%;
+    height: 100%;
+}
